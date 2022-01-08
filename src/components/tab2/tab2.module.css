@@ -1,0 +1,41 @@
+.layout {
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+}
+
+.contents {
+    box-sizing: border-box;
+    width: 80%;
+    height: 400px;
+    padding: 10px;
+    margin:0 auto;
+    border: 1px solid black;
+}
+
+.tabBox {
+    display: flex;
+    align-items: center;
+}
+
+.tabBox a {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #3a3776cc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.on {
+    background-color: darkcyan;
+}
+
+.listBox {
+    box-sizing: border-box;
+    width:100%;
+    height: 330px;
+    border: 1px solid red;
+}
